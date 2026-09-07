@@ -1,0 +1,7 @@
+{
+  "name": "Kundli Yog Calculator",
+  "description": "Free Kundli Yog Calculator and Analyzer with Lahiri sidereal ephemeris, planetary strength scoring, Dasha activation timeline, and interactive Kundli chart.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
+

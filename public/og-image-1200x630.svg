@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@700;800;900&amp;family=Plus+Jakarta+Sans:wght@500;600;700&amp;display=swap');
+      .og-title {
+        font-family: 'Cinzel', 'Trajan Pro', Georgia, serif;
+        font-weight: 900;
+        font-size: 64px;
+        letter-spacing: 0.12em;
+      }
+      .og-tagline {
+        font-family: 'Cinzel', 'Trajan Pro', Georgia, serif;
+        font-weight: 700;
+        font-size: 20px;
+        letter-spacing: 0.24em;
+      }
+      .og-body {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 21px;
+        font-weight: 500;
+      }
+      .og-badge {
+        font-family: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+        font-size: 16px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+      }
+    </style>
+    <radialGradient id="og-bg" cx="50%" cy="30%" r="80%">
+      <stop offset="0%" stop-color="#131F33" />
+      <stop offset="100%" stop-color="#0B1120" />
+    </radialGradient>
+    <radialGradient id="og-halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#14B8A6" stop-opacity="0.22" />
+      <stop offset="100%" stop-color="#131F33" stop-opacity="0" />
+    </radialGradient>
+  </defs>
+
+  <!-- Deep Slate Canvas -->
+  <rect width="1200" height="630" fill="url(#og-bg)" />
+
+  <!-- Background Halo behind Chakra -->
+  <circle cx="260" cy="315" r="280" fill="url(#og-halo)" />
+
+  <!-- Modern Hairline Borders -->
+  <rect x="24" y="24" width="1152" height="582" rx="16" fill="none" stroke="#25344D" stroke-width="2" />
+  <rect x="36" y="36" width="1128" height="558" rx="12" fill="none" stroke="#0D9488" stroke-width="1.6" opacity="0.6" />
+
+  <!-- Left Astrological Wheel -->
+  
+  <!-- Astrological Sudarshana Chakra -->
+  <g id="chakra-emblem" transform-origin="260 315">
+    <!-- Background Radiant Aura -->
+    <circle cx="260" cy="315" r="154.00" fill="rgba(20, 184, 166, 0.18)" />
+
+    <!-- Outer Precision Rings -->
+    <circle cx="260" cy="315" r="175.00" fill="none" stroke="#14B8A6" stroke-width="7.00" />
+    <circle cx="260" cy="315" r="157.50" fill="none" stroke="#14B8A6" stroke-width="3.85" stroke-dasharray="7.88 7.88" />
+    <circle cx="260" cy="315" r="129.50" fill="none" stroke="#14B8A6" stroke-width="5.25" />
+
+    <!-- 12 Astrological Rashi Spokes -->
+    <line x1="337.00" y1="315.00" x2="389.50" y2="315.00" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="326.68" y1="353.50" x2="372.15" y2="379.75" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="298.50" y1="381.68" x2="324.75" y2="427.15" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="260.00" y1="392.00" x2="260.00" y2="444.50" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="221.50" y1="381.68" x2="195.25" y2="427.15" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="193.32" y1="353.50" x2="147.85" y2="379.75" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="183.00" y1="315.00" x2="130.50" y2="315.00" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="193.32" y1="276.50" x2="147.85" y2="250.25" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="221.50" y1="248.32" x2="195.25" y2="202.85" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="260.00" y1="238.00" x2="260.00" y2="185.50" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="298.50" y1="248.32" x2="324.75" y2="202.85" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+<line x1="326.68" y1="276.50" x2="372.15" y2="250.25" stroke="#14B8A6" stroke-width="5.60" stroke-linecap="round" />
+
+
+    <!-- 12 Constellation Diamond Bindus -->
+    <polygon points="435.00,305.38 444.63,315.00 435.00,324.63 425.38,315.00" fill="#F59E0B" />
+<polygon points="411.55,395.85 418.20,402.50 411.55,409.15 404.90,402.50" fill="#14B8A6" />
+<polygon points="347.50,459.90 354.15,466.55 347.50,473.20 340.85,466.55" fill="#14B8A6" />
+<polygon points="260.00,480.38 269.63,490.00 260.00,499.63 250.38,490.00" fill="#F59E0B" />
+<polygon points="172.50,459.90 179.15,466.55 172.50,473.20 165.85,466.55" fill="#14B8A6" />
+<polygon points="108.45,395.85 115.10,402.50 108.45,409.15 101.80,402.50" fill="#14B8A6" />
+<polygon points="85.00,305.38 94.63,315.00 85.00,324.63 75.38,315.00" fill="#F59E0B" />
+<polygon points="108.45,220.85 115.10,227.50 108.45,234.15 101.80,227.50" fill="#14B8A6" />
+<polygon points="172.50,156.80 179.15,163.45 172.50,170.10 165.85,163.45" fill="#14B8A6" />
+<polygon points="260.00,130.38 269.62,140.00 260.00,149.63 250.37,140.00" fill="#F59E0B" />
+<polygon points="347.50,156.80 354.15,163.45 347.50,170.10 340.85,163.45" fill="#14B8A6" />
+<polygon points="411.55,220.85 418.20,227.50 411.55,234.15 404.90,227.50" fill="#14B8A6" />
+
+
+    <!-- Inner Sacred Sanctum Ring -->
+    <circle cx="260" cy="315" r="77.00" fill="none" stroke="#14B8A6" stroke-width="6.13" />
+
+    <!-- Ashtadala Padma (8-Petaled Lotus) -->
+    <path d="M 260.00 315.00 Q 301.94 301.37 333.50 315.00 Q 301.94 328.63 260.00 315.00 Z" fill="#F59E0B" fill-opacity="0.45" stroke="#14B8A6" stroke-width="4.20" />
+<path d="M 260.00 315.00 Q 299.29 335.02 311.97 366.97 Q 280.02 354.29 260.00 315.00 Z" fill="#F59E0B" fill-opacity="0.45" stroke="#14B8A6" stroke-width="4.20" />
+<path d="M 260.00 315.00 Q 273.63 356.94 260.00 388.50 Q 246.37 356.94 260.00 315.00 Z" fill="#F59E0B" fill-opacity="0.45" stroke="#14B8A6" stroke-width="4.20" />
+<path d="M 260.00 315.00 Q 239.98 354.29 208.03 366.97 Q 220.71 335.02 260.00 315.00 Z" fill="#F59E0B" fill-opacity="0.45" stroke="#14B8A6" stroke-width="4.20" />
+<path d="M 260.00 315.00 Q 218.06 328.63 186.50 315.00 Q 218.06 301.37 260.00 315.00 Z" fill="#F59E0B" fill-opacity="0.45" stroke="#14B8A6" stroke-width="4.20" />
+<path d="M 260.00 315.00 Q 220.71 294.98 208.03 263.03 Q 239.98 275.71 260.00 315.00 Z" fill="#F59E0B" fill-opacity="0.45" stroke="#14B8A6" stroke-width="4.20" />
+<path d="M 260.00 315.00 Q 246.37 273.06 260.00 241.50 Q 273.63 273.06 260.00 315.00 Z" fill="#F59E0B" fill-opacity="0.45" stroke="#14B8A6" stroke-width="4.20" />
+<path d="M 260.00 315.00 Q 280.02 275.71 311.97 263.03 Q 299.29 294.98 260.00 315.00 Z" fill="#F59E0B" fill-opacity="0.45" stroke="#14B8A6" stroke-width="4.20" />
+
+
+    <!-- Solar Rays from Central Bindu -->
+    <line x1="284.90" y1="325.31" x2="307.53" y2="334.69" stroke="#A7F3D0" stroke-width="6.65" stroke-linecap="round" />
+<line x1="270.31" y1="339.90" x2="279.69" y2="362.53" stroke="#A7F3D0" stroke-width="6.65" stroke-linecap="round" />
+<line x1="249.69" y1="339.90" x2="240.31" y2="362.53" stroke="#A7F3D0" stroke-width="6.65" stroke-linecap="round" />
+<line x1="235.10" y1="325.31" x2="212.47" y2="334.69" stroke="#A7F3D0" stroke-width="6.65" stroke-linecap="round" />
+<line x1="235.10" y1="304.69" x2="212.47" y2="295.31" stroke="#A7F3D0" stroke-width="6.65" stroke-linecap="round" />
+<line x1="249.69" y1="290.10" x2="240.31" y2="267.47" stroke="#A7F3D0" stroke-width="6.65" stroke-linecap="round" />
+<line x1="270.31" y1="290.10" x2="279.69" y2="267.47" stroke="#A7F3D0" stroke-width="6.65" stroke-linecap="round" />
+<line x1="284.90" y1="304.69" x2="307.53" y2="295.31" stroke="#A7F3D0" stroke-width="6.65" stroke-linecap="round" />
+
+
+    <!-- Radiant Surya Bindu Core -->
+    <circle cx="260" cy="315" r="33.08" fill="#F59E0B" />
+    <circle cx="260" cy="315" r="24.50" fill="#0F172A" stroke="#14B8A6" stroke-width="5.25" />
+    <circle cx="253.14" cy="308.14" r="9.31" fill="#A7F3D0" opacity="0.8" />
+  </g>
+  
+
+  <!-- Right Typography & Content -->
+  <g transform="translate(520, 0)">
+    <!-- Primary Title -->
+    <text x="0" y="195" class="og-title" fill="#FFFFFF">KUNDLI <tspan fill="#14B8A6">YOG</tspan></text>
+    
+    <!-- Subtitle -->
+    <text x="3" y="238" class="og-tagline" fill="#14B8A6">ROYAL HOROSCOPE &amp; YOGA ANALYZER</text>
+
+    <!-- Decorative Teal Divider -->
+    <line x1="2" y1="265" x2="380" y2="265" stroke="#14B8A6" stroke-width="1.8" opacity="0.6" />
+    <polygon points="380,265 385,262 390,265 385,268" fill="#14B8A6" />
+
+    <!-- Feature Checklist -->
+    <g transform="translate(0, 318)">
+      <!-- Item 1 -->
+      <circle cx="12" cy="0" r="5" fill="#14B8A6" />
+      <text x="32" y="7" class="og-body" fill="#F8FAFC">Detect Over 50+ Classical Vedic Yogas &amp; Doshas</text>
+
+      <!-- Item 2 -->
+      <circle cx="12" cy="52" r="5" fill="#14B8A6" />
+      <text x="32" y="59" class="og-body" fill="#F8FAFC">Astronomical Lahiri Sidereal Ephemeris &amp; Scoring</text>
+
+      <!-- Item 3 -->
+      <circle cx="12" cy="104" r="5" fill="#14B8A6" />
+      <text x="32" y="111" class="og-body" fill="#F8FAFC">120-Year Vimshottari Dasha Activation Timeline</text>
+    </g>
+
+    <!-- Bottom Authority Badge -->
+    <g transform="translate(0, 485)">
+      <rect x="0" y="0" width="460" height="42" rx="21" fill="rgba(20, 184, 166, 0.15)" stroke="#14B8A6" stroke-width="1.2" />
+      <text x="24" y="27" class="og-badge" fill="#2DD4BF">👑 100% FREE CLIENT-SIDE SIDEREAL HOROSCOPE CHECK</text>
+    </g>
+  </g>
+</svg>

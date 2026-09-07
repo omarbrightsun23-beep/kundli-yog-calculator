@@ -1,0 +1,26 @@
+{
+  "name": "Kundli Yog Analyzer",
+  "short_name": "KundliYog",
+  "description": "Free Kundli Yog calculator and analyzer with Lahiri sidereal ephemeris, planetary strength scoring, and Vimshottari Dasha timeline.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FAF8F2",
+  "theme_color": "#003865",
+  "icons": [
+    {
+      "src": "/favicon-32x32.png",
+      "sizes": "32x32",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-48x48.png",
+      "sizes": "48x48",
+      "type": "image/png"
+    },
+    {
+      "src": "/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    }
+  ]
+}

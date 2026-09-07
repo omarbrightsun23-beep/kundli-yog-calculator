@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <!-- Background -->
+  <rect width="1200" height="630" fill="#0B0F19" />
+  
+  <!-- Outer Frame -->
+  <rect x="24" y="24" width="1152" height="582" rx="16" fill="none" stroke="#1E293B" stroke-width="2" />
+  <rect x="36" y="36" width="1128" height="558" rx="12" fill="none" stroke="#D4AF37" stroke-width="1.5" opacity="0.5" />
+
+  <!-- Left Side Zodiac Wheel Backdrop -->
+  <circle cx="275" cy="315" r="215" fill="#111827" fill-opacity="0.7" />
+  
+    <!-- Outer Rim -->
+    <circle cx="275" cy="315" r="175" fill="none" stroke="#D4AF37" stroke-width="7.88" />
+    <!-- Middle Dotted Ring -->
+    <circle cx="275" cy="315" r="120.74999999999999" fill="none" stroke="#D4AF37" stroke-width="4.38" stroke-dasharray="7.00 7.00" />
+    <!-- Inner Ring -->
+    <circle cx="275" cy="315" r="75.25" fill="none" stroke="#D4AF37" stroke-width="6.13" />
+    <!-- 12 Astrological Spokes -->
+    <line x1="350.25" y1="315.00" x2="450.00" y2="315.00" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="340.17" y1="352.63" x2="426.55" y2="402.50" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="312.63" y1="380.17" x2="362.50" y2="466.55" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="275.00" y1="390.25" x2="275.00" y2="490.00" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="237.38" y1="380.17" x2="187.50" y2="466.55" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="209.83" y1="352.63" x2="123.45" y2="402.50" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="199.75" y1="315.00" x2="100.00" y2="315.00" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="209.83" y1="277.38" x2="123.45" y2="227.50" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="237.37" y1="249.83" x2="187.50" y2="163.45" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="275.00" y1="239.75" x2="275.00" y2="140.00" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="312.63" y1="249.83" x2="362.50" y2="163.45" stroke="#D4AF37" stroke-width="6.13" />
+<line x1="340.17" y1="277.37" x2="426.55" y2="227.50" stroke="#D4AF37" stroke-width="6.13" />
+
+    <!-- Center Radiant Crest -->
+    <g>
+      <!-- Rays -->
+      <line x1="252.06" y1="298.94" x2="229.13" y2="282.88" stroke="#F59E0B" stroke-width="7.88" stroke-linecap="round" />
+<line x1="258.94" y1="292.06" x2="242.88" y2="269.13" stroke="#F59E0B" stroke-width="7.88" stroke-linecap="round" />
+<line x1="267.75" y1="287.95" x2="260.51" y2="260.91" stroke="#F59E0B" stroke-width="7.88" stroke-linecap="round" />
+<line x1="275.00" y1="287.00" x2="275.00" y2="259.00" stroke="#F59E0B" stroke-width="7.88" stroke-linecap="round" />
+<line x1="282.25" y1="287.95" x2="289.49" y2="260.91" stroke="#F59E0B" stroke-width="7.88" stroke-linecap="round" />
+<line x1="291.06" y1="292.06" x2="307.12" y2="269.13" stroke="#F59E0B" stroke-width="7.88" stroke-linecap="round" />
+<line x1="297.94" y1="298.94" x2="320.87" y2="282.88" stroke="#F59E0B" stroke-width="7.88" stroke-linecap="round" />
+
+      <!-- Lotus / Cup Base -->
+      <path d="M 212.00 325.50 Q 275 364.00 338.00 325.50 Q 275 340.90 212.00 325.50 Z" fill="#F59E0B" />
+      <!-- Central Pearl / Bindu -->
+      <circle cx="275" cy="320.25" r="14.00" fill="#FFFFFF" stroke="#F59E0B" stroke-width="4.38" />
+    </g>
+  
+
+  <!-- Right Side Content -->
+  <g transform="translate(540, 0)">
+    <!-- Header Title -->
+    <text x="0" y="200" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="900" font-size="62" letter-spacing="3" fill="#FFFFFF">KUNDLI YOG</text>
+    
+    <!-- Subtitle -->
+    <text x="2" y="245" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-weight="800" font-size="20" letter-spacing="2.5" fill="#E5B83B">ROYAL HOROSCOPE &amp; YOGA ANALYZER</text>
+
+    <!-- Key Bullet Points -->
+    <g transform="translate(0, 300)">
+      <!-- Item 1 -->
+      <circle cx="10" cy="0" r="4.5" fill="#E5B83B" />
+      <text x="28" y="7" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#F1F5F9">Discover Over 50+ Classical Vedic Yogas &amp; Doshas</text>
+
+      <!-- Item 2 -->
+      <circle cx="10" cy="50" r="4.5" fill="#E5B83B" />
+      <text x="28" y="57" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#F1F5F9">Instant Efficacy &amp; Planetary Strength Scoring</text>
+
+      <!-- Item 3 -->
+      <circle cx="10" cy="100" r="4.5" fill="#E5B83B" />
+      <text x="28" y="107" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="21" font-weight="500" fill="#F1F5F9">Complete Vimshottari Dasha Activation Timeline</text>
+    </g>
+
+    <!-- Bottom Highlight -->
+    <g transform="translate(2, 490)">
+      <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#F59E0B">🪷 100% Free Sidereal Lahiri Engine • Instant Chart Check</text>
+    </g>
+  </g>
+</svg>

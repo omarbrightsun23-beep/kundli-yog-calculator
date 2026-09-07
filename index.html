@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="en" class="light">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      (function() {
+        try {
+          var origFetch = window.fetch;
+          Object.defineProperty(window, 'fetch', {
+            get: function() {
+              return origFetch;
+            },
+            set: function(val) {
+              origFetch = val;
+            },
+            configurable: true,
+            enumerable: true
+          });
+        } catch (e) {}
+      })();
+    </script>
+    <title>Kundli Yog — Free Vedic Kundli Yog Calculator &amp; Chart Analyzer</title>
+    <meta name="description" content="Free online Kundli Yog calculator and chart analyzer. Discover and check all auspicious Kundli Yog combinations in your Vedic birth chart with Lahiri Sidereal ephemeris, planetary strength scoring, and Vimshottari Dasha timeline." />
+    <meta name="keywords" content="kundli yog, kundli yog calculator, check kundli yog, free kundli yog, what is kundli yog, kundli yog list, vedic astrology calculator usa, vedic birth chart calculator, sidereal astrology chart, raj yog in kundli, dhan yoga in kundli, kundali yoga check, gaj kesari yoga calculator, panch mahapurusha yoga calculator, budhaditya yoga in kundli, neech bhang raj yoga, vipreet raj yoga, indian astrology birth chart usa, free kundli by date of birth, Vedic Astrology Calculator, Lahiri Ayanamsa, Vimshottari Dasha, Jyotish Kundli" />
+    <meta name="author" content="KundliYog Astrological Research" />
+    <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1" />
+    <meta name="geo.region" content="US" />
+    <meta name="geo.placename" content="United States" />
+    <meta name="content-language" content="en-US" />
+    <link rel="canonical" href="https://www.kundliyogcalculator.com/" />
+    <link rel="alternate" type="application/rss+xml" title="Kundli Yog Calculator Classical Astrology &amp; Ephemeris Feed" href="https://www.kundliyogcalculator.com/feed.xml" />
+    
+    <!-- Google Search Console & Bing Verification (Uncomment & insert token, or drop verification file into public/) -->
+    <!-- <meta name="google-site-verification" content="PASTE_GOOGLE_VERIFICATION_TOKEN_HERE" /> -->
+    <!-- <meta name="msvalidate.01" content="PASTE_BING_VERIFICATION_TOKEN_HERE" /> -->
+    
+    <!-- Favicon and Brand Icons -->
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="48x48" href="/favicon-48x48.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#003865" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+    <meta name="apple-mobile-web-app-title" content="Kundli Yog Calculator" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://www.kundliyogcalculator.com/" />
+    <meta property="og:title" content="Kundli Yog — Free Vedic Kundli Yog Calculator &amp; Chart Analyzer" />
+    <meta property="og:description" content="Calculate auspicious Kundli Yog combinations in your birth chart: Raj Yogas, Dhan Yogas, Budhaditya, and Mahapurusha with Lahiri sidereal precision, strength meter, and Dasha activation timing." />
+    <meta property="og:site_name" content="Kundli Yog Calculator" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:image" content="https://www.kundliyogcalculator.com/og-image-1200x630.png" />
+    <meta property="og:image:secure_url" content="https://www.kundliyogcalculator.com/og-image-1200x630.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Kundli Yog Calculator &amp; Analyzer" />
+    
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:url" content="https://www.kundliyogcalculator.com/" />
+    <meta name="twitter:title" content="Kundli Yog — Free Vedic Kundli Yog Calculator &amp; Chart Analyzer" />
+    <meta name="twitter:description" content="Discover royal combinations, wealth Kundli Yog, and active Vimshottari Dashas with zero signup." />
+    <meta name="twitter:image" content="https://www.kundliyogcalculator.com/og-image-1200x630.png" />
+    <meta name="twitter:image:alt" content="Kundli Yog Calculator &amp; Analyzer" />
+
+    <!-- Schema.org JSON-LD Structured Data for Google Search Console Indexing -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@graph": [
+        {
+          "@type": "WebSite",
+          "@id": "https://www.kundliyogcalculator.com/#website",
+          "url": "https://www.kundliyogcalculator.com/",
+          "name": "Kundli Yog Calculator",
+          "description": "Free high-precision Kundli Yog Calculator and Analyzer calculating Raj Yogas, Mahapurusha, and Vimshottari Dashas with Lahiri Ayanamsa.",
+          "inLanguage": "en-US",
+          "publisher": {
+            "@id": "https://www.kundliyogcalculator.com/#organization"
+          }
+        },
+        {
+          "@type": "BreadcrumbList",
+          "@id": "https://www.kundliyogcalculator.com/#breadcrumb",
+          "itemListElement": [
+            {
+              "@type": "ListItem",
+              "position": 1,
+              "name": "Home",
+              "item": "https://www.kundliyogcalculator.com/"
+            },
+            {
+              "@type": "ListItem",
+              "position": 2,
+              "name": "Kundli Yog Encyclopedia & Sitemap",
+              "item": "https://www.kundliyogcalculator.com/sitemap"
+            }
+          ]
+        },
+        {
+          "@type": "WebApplication",
+          "@id": "https://www.kundliyogcalculator.com/#webapp",
+          "name": "Kundli Yog Calculator",
+          "url": "https://www.kundliyogcalculator.com/",
+          "applicationCategory": "LifestyleApplication",
+          "operatingSystem": "All",
+          "browserRequirements": "Requires JavaScript. Requires HTML5.",
+          "description": "High-precision Kundli Yog calculator calculating classical Parashari planetary yogas, doshas, chart strength, and Vimshottari Dasha activation using Chitrapaksha Lahiri Ayanamsa.",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "USD"
+          },
+          "featureList": [
+            "Kundli Yog Detection with Chitrapaksha Lahiri Sidereal Ephemeris",
+            "Classical Parashari Raj Yog, Dhan Yog & Dosha Identification",
+            "Panch Mahapurusha (Ruchaka, Bhadra, Hamsa, Malavya, Sasa)",
+            "Dynamic 0-100% Planetary Strength Scoring & Combustion Analysis",
+            "North Indian Diamond & South Indian Box Interactive Charts",
+            "120-Year Vimshottari Dasha Activation Timeline",
+            "Printable & Downloadable Kundli Yog Dossier Report",
+            "Instagram Story & WhatsApp Canvas Share Card"
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://www.kundliyogcalculator.com/#organization",
+          "name": "Kundli Yog Calculator",
+          "url": "https://www.kundliyogcalculator.com/",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.kundliyogcalculator.com/logo.png",
+            "width": 512,
+            "height": 512
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://www.kundliyogcalculator.com/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "What is a Kundli Yog and how do I check my Kundli Yog?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "In Vedic Astrology (Jyotish), a Kundli Yog is a specific astrological alignment or combination of planets, zodiac signs, and houses (Bhavas) in your birth chart (Janam Kundli). Classical texts like Brihat Parashara Hora Shastra state that a Kundli Yog determines authority, wealth (Dhan Yog), intellectual status (Budhaditya Yog), and life success. You can check all Kundli Yog combinations in your chart for free by entering your date of birth, time, and city in our Kundli Yog Calculator."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "How do I find out if I have Raj Yoga in my Kundli?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "To identify a Raj Yoga in your Kundli, examine the relationship between the lords of the Kendra houses (1st, 4th, 7th, 10th) and Trikona houses (1st, 5th, 9th). When a Kendra lord and Trikona lord conjunct, aspect each other mutually, or exchange signs, a Parashari Raj Yoga is formed. You can check this instantly by entering your birth date, time, and city in our free Kundli Yog Calculator."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Which houses and planets form Gajakesari Yoga?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Gajakesari Yoga is formed by Jupiter (Guru) and the Moon (Chandra) when Jupiter occupies a Kendra house (1st, 4th, 7th, or 10th) from the natal Moon. It confers enduring intellectual brilliance, social prestige, high moral governance, and lasting legacy."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Can Budhaditya Yoga form in any house, and what if Mercury is combust?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Budhaditya Yoga forms whenever the Sun and Mercury occupy the same sign. Mercury is frequently combust due to its astronomical proximity to the Sun. As long as Mercury is separated from the Sun by at least 3 degrees (avoiding deep combustion), it absorbs solar radiance to confer razor-sharp analytical and oratory genius."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Why have my detected Raj Yogas not materialized yet?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Yogas require the active planetary period (Mahadasha or Antardasha) of their constituent lord planets to manifest. Combustion by the Sun, debility without cancellation, or dusthana placement can also delay manifestations until mature life phases (typically ages 28 to 36)."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What cancels a Raj Yoga (Yoga Bhanga)?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "A Raj Yoga is canceled or significantly weakened if one of the participating planets is deeply debilitated without Neech Bhanga, placed in dusthana houses (6th, 8th, or 12th), deeply combust within 3 degrees of the Sun, or if the Lagna lord lacks astronomical strength."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is Neech Bhanga Raj Yoga (Cancellation of Debility)?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "When a debilitated planet has its sign dispositor or exaltation lord placed in a Kendra from the Lagna or Moon, its weakness is transformed into exceptional resilience and self-made high achievement."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Dhan Yoga vs Raj Yoga: what is the difference?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Raj Yoga connects Kendra (action) and Trikona (fortune) houses, elevating your public authority, dignity, title, and societal influence. Dhan Yoga specifically connects the 2nd house (treasury) and 11th house (profits) with 1st, 5th, or 9th houses for liquid wealth and cash flow."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "What is Kemdrum Yoga and what are its cancellation rules (Kemdrum Bhanga)?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Kemdrum Yoga forms when there are no planets in the 2nd and 12th houses from the Moon. However, if any planet occupies a Kendra from the Lagna or Moon, Kemdrum Bhanga occurs, converting loneliness into self-made dynasty building and executive mastery."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Kundli me rajyog kaise dekhe aur kab banta hai? (कुंडली में राजयोग कैसे देखें?)",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "वैदिक ज्योतिष के अनुसार जब केंद्र भावों (1, 4, 7, 10) और त्रिकोण भावों (1, 5, 9) के स्वामी आपस में युति या दृष्टि संबंध बनाते हैं, तब राजयोग बनता है।"
+              }
+            }
+          ]
+        }
+      ]
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800;900&family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  </head>
+  <body class="bg-[#FAF8F2] text-[#2C3138] antialiased selection:bg-[#003865] selection:text-white">
+    <noscript>
+      <div style="max-width: 800px; margin: 0 auto; padding: 24px; font-family: sans-serif; line-height: 1.6; color: #f1f5f9; background: #0f172a;">
+        <h1 style="color: #f59e0b;">Kundli Yog Analyzer — Free Vedic Kundli Yog Calculator</h1>
+        <p>
+          KundliYog calculates royal planetary combinations (Kundli Yog), wealth yogas (Dhan Yog), intellect yogas (Budhaditya Yog), and Panch Mahapurusha alignments using true Chitrapaksha (Lahiri) Sidereal ephemeris and Brihat Parashara Hora Shastra principles.
+        </p>
+        <h2>Classical Vedic Yoga Encyclopedia &amp; Research Guides</h2>
+        <ul>
+          <li><a href="/yoga/raj-yoga" style="color: #38bdf8;">Raj Yoga Guide (Parashari Kendra-Trikona Royal Union)</a></li>
+          <li><a href="/yoga/dhan-yoga" style="color: #38bdf8;">Dhan Yoga Guide (2nd &amp; 11th House Wealth Combinations)</a></li>
+          <li><a href="/yoga/gajakesari-yoga" style="color: #38bdf8;">Gajakesari Yoga (Guru-Chandra Kendra alignment)</a></li>
+          <li><a href="/yoga/budhaditya-yoga" style="color: #38bdf8;">Budhaditya Yoga (Sun-Mercury Intellectual conjunction &amp; Combustion Rules)</a></li>
+          <li><a href="/yoga/dharma-karma-adhipati-raj-yoga" style="color: #38bdf8;">Dharma Karma Adhipati Raj Yoga (9th &amp; 10th lords union)</a></li>
+          <li><a href="/yoga/ruchaka-yoga" style="color: #38bdf8;">Ruchaka Yoga (Mars Panch Mahapurusha)</a></li>
+          <li><a href="/yoga/bhadra-yoga" style="color: #38bdf8;">Bhadra Yoga (Mercury Panch Mahapurusha)</a></li>
+          <li><a href="/yoga/hamsa-yoga" style="color: #38bdf8;">Hamsa Yoga (Jupiter Panch Mahapurusha)</a></li>
+          <li><a href="/yoga/malavya-yoga" style="color: #38bdf8;">Malavya Yoga (Venus Panch Mahapurusha)</a></li>
+          <li><a href="/yoga/sasa-yoga" style="color: #38bdf8;">Sasa Yoga (Saturn Panch Mahapurusha)</a></li>
+          <li><a href="/yoga/lakshmi-yoga" style="color: #38bdf8;">Lakshmi Yoga (9th Lord &amp; Venus Wealth Yoga)</a></li>
+          <li><a href="/yoga/chandra-mangal-yoga" style="color: #38bdf8;">Chandra Mangal Yoga (Moon-Mars Commercial alignment)</a></li>
+          <li><a href="/yoga/neech-bhanga-raj-yoga" style="color: #38bdf8;">Neech Bhanga Raj Yoga (Cancellation of planetary debility)</a></li>
+          <li><a href="/yoga/vipreet-raj-yoga" style="color: #38bdf8;">Vipreet Raj Yoga (Trika 6th, 8th, 12th lords triumph)</a></li>
+          <li><a href="/yoga/kemdrum-yoga" style="color: #38bdf8;">Kemdrum Yoga &amp; Bhanga Cancellation Rules</a></li>
+          <li><a href="/yoga/amala-yoga" style="color: #38bdf8;">Amala Yoga (Spotless 10th house benefic alignment)</a></li>
+          <li><a href="/yoga/vasumati-yoga" style="color: #38bdf8;">Vasumati Yoga (Upachaya benefics wealth yoga)</a></li>
+        </ul>
+        <h2>Frequently Asked Questions</h2>
+        <p><strong>What constitutes a classical Raj Yoga?</strong> In Vedic astrology, Raj Yogas form when lords of Kendra houses (1st, 4th, 7th, 10th) unite with lords of Trikona houses (1st, 5th, 9th).</p>
+        <p><strong>Why do yogas require Vimshottari Dasha to activate?</strong> A yoga represents latent potential in the birth chart. Its auspicious fruits unlock primarily during the Mahadasha or Antardasha of its constituent planets.</p>
+        <h2>Company &amp; Legal Directory</h2>
+        <p>
+          <a href="/about-us" style="color: #38bdf8;">About Us</a> &bull;
+          <a href="/contact-us" style="color: #38bdf8;">Contact Us</a> &bull;
+          <a href="/privacy-policy" style="color: #38bdf8;">Privacy Policy</a> &bull;
+          <a href="/terms-and-conditions" style="color: #38bdf8;">Terms &amp; Conditions</a> &bull;
+          <a href="/disclaimer" style="color: #38bdf8;">Astrological Disclaimer</a> &bull;
+          <a href="/sitemap" style="color: #38bdf8;">Sitemap</a>
+        </p>
+      </div>
+    </noscript>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

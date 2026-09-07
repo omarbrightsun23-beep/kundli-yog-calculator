@@ -1,0 +1,356 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-cinzel: 'Cinzel', serif;
+    --font-sans: 'Plus Jakarta Sans', sans-serif;
+
+    /* CubicYardHub Signature Theme Colors:
+       1. Primary Deep Harbor Navy: #003865 (Deep Navy Blue authority, header accents, active tabs, footer)
+       2. Secondary Dark Navy: #002b4d (Hover states, footer borders and deep contrast)
+       3. Warm Sand / Khaki: #E2DCB9 (Structural precision borders, badges, card dividers)
+       4. Soft Cream Sand Well: #EFE6C8 (Subtle highlighted surfaces, chip wells, secondary tabs)
+       5. Radiant Amber Gold: #FBAF3C (Solar power, primary CTAs, chakra emblem, gold badges)
+       6. Amber Gold Hover: #e59f30
+       7. Body Text Charcoal: #2C3138 (Ultra-readable high contrast dark neutral)
+       8. Muted Slate: #828892 (Labels, secondary metrics, dates)
+       9. Canvas Background: #FAF8F2 (Signature warm linen / parchment cream alabaster)
+       10. Pure White: #FFFFFF (Crisp elevated cards, input backgrounds, dark-button text)
+    */
+    --color-navy: #003865;
+    --color-navy-dark: #002b4d;
+    --color-sand: #E2DCB9;
+    --color-sand-soft: #EFE6C8;
+    --color-amber: #FBAF3C;
+    --color-amber-hover: #e59f30;
+    --color-charcoal: #2C3138;
+    --color-muted: #828892;
+    --color-canvas: #FAF8F2;
+    --color-white: #FFFFFF;
+  }
+}
+
+html {
+  color-scheme: light;
+}
+
+body {
+  background-color: #FAF8F2;
+  background-image: 
+    radial-gradient(ellipse 70% 45% at 20% 0%, rgba(251, 175, 60, 0.08), transparent 60%),
+    radial-gradient(ellipse 65% 45% at 85% 15%, rgba(0, 56, 101, 0.07), transparent 60%),
+    radial-gradient(ellipse 65% 55% at 50% 90%, rgba(226, 220, 185, 0.25), transparent 60%);
+  background-attachment: fixed;
+  color: #2C3138;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+.font-cinzel {
+  font-family: 'Cinzel', serif;
+}
+
+/* Astrological Heading Gradient */
+.gold-gradient-text {
+  background: linear-gradient(135deg, #003865 0%, #002b4d 30%, #FBAF3C 80%, #e59f30 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+/* Subtle Cohesive Cosmic Glows */
+.purple-glow,
+.celestial-glow {
+  box-shadow: 
+    0 10px 30px -5px rgba(0, 56, 101, 0.08), 
+    0 4px 15px -2px rgba(251, 175, 60, 0.10),
+    0 1px 3px 0 rgba(44, 49, 56, 0.04);
+}
+
+.gold-border {
+  border-color: #E2DCB9;
+}
+
+/* ==========================================================================
+   CRITICAL CONTRAST SAFEGUARD: White text must ALWAYS stay pure white!
+   Never allow dark text on dark buttons or Midnight Navy containers.
+   ========================================================================== */
+.text-white {
+  color: #FFFFFF !important;
+}
+
+.hover\:text-white:hover {
+  color: #FFFFFF !important;
+}
+
+/* ==========================================================================
+   ELEVATIONS & CONTAINER CARDS
+   ========================================================================== */
+#calculator,
+#kundli-chart-section,
+#planetary-positions-section,
+#dasha-schedule-section,
+#yoga-directory,
+#faq,
+#how-it-works > div > div {
+  background-color: #FFFFFF;
+  border-color: #E2DCB9;
+  box-shadow: 
+    0 4px 20px -2px rgba(0, 56, 101, 0.05),
+    0 1px 3px 0 rgba(44, 49, 56, 0.03);
+}
+
+/* Calculator Card: Warm Sand Border with subtle golden sheen */
+#calculator {
+  border-color: #E2DCB9;
+  box-shadow: 
+    0 10px 30px -5px rgba(0, 56, 101, 0.06), 
+    0 4px 14px -2px rgba(251, 175, 60, 0.08);
+}
+
+/* Overview Highlight Banner */
+#overview-highlight-banner {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FAF8F2 50%, #EFE6C8/40 100%);
+  border-color: #E2DCB9;
+  box-shadow: 
+    0 10px 25px -5px rgba(0, 56, 101, 0.06), 
+    0 4px 10px -2px rgba(251, 175, 60, 0.06);
+}
+
+#overview-highlight-banner h2 {
+  color: #003865;
+}
+
+#overview-highlight-banner p {
+  color: #2C3138;
+}
+
+/* Badges inside Overview Banner */
+#result-lagna-badge {
+  background-color: #FAF8F2;
+  border-color: #E2DCB9;
+  color: #003865;
+}
+
+#result-moon-badge {
+  background-color: #EFE6C8;
+  border-color: #E2DCB9;
+  color: #003865;
+}
+
+#result-nakshatra-badge {
+  background-color: #FAF8F2;
+  border-color: #E2DCB9;
+  color: #2C3138;
+}
+
+/* ==========================================================================
+   BUTTONS & INTERACTIVE CONTROLS
+   ========================================================================== */
+
+/* Primary Action Buttons: Amber Gold with Deep Navy Text or Deep Navy with White Text */
+#calculate-submit-btn,
+#download-final-kundli-report-btn,
+#results-bottom-download-btn,
+#download-report-cta-btn,
+#download-modal-pdf-btn,
+#download-canvas-btn,
+#header-cta-btn {
+  background-color: #FBAF3C !important;
+  color: #003865 !important;
+  font-weight: 700 !important;
+  border: 1px solid #e59f30 !important;
+  box-shadow: 0 4px 14px -2px rgba(251, 175, 60, 0.35) !important;
+}
+
+#calculate-submit-btn:hover,
+#download-final-kundli-report-btn:hover,
+#results-bottom-download-btn:hover,
+#header-cta-btn:hover {
+  background-color: #e59f30 !important;
+  color: #003865 !important;
+}
+
+/* Deep Harbor Navy Buttons & Active Filter Tabs */
+.bg-\[\#003865\] {
+  background-color: #003865 !important;
+  color: #FFFFFF !important;
+}
+
+.bg-\[\#003865\].text-white,
+.bg-\[\#003865\] span,
+button.bg-\[\#003865\] {
+  color: #FFFFFF !important;
+}
+
+/* Legacy Navy class aliases to ensure zero regression */
+.bg-\[\#16243B\] {
+  background-color: #003865 !important;
+  color: #FFFFFF !important;
+}
+
+.bg-\[\#16243B\].text-white,
+.bg-\[\#16243B\] span,
+button.bg-\[\#16243B\] {
+  color: #FFFFFF !important;
+}
+
+/* Secondary Buttons */
+#open-share-story-btn,
+#story-card-cta-btn,
+#results-bottom-story-btn {
+  background-color: #FFFFFF;
+  color: #003865;
+  border-color: #E2DCB9;
+}
+
+#open-share-story-btn:hover,
+#story-card-cta-btn:hover,
+#results-bottom-story-btn:hover {
+  background-color: #FAF8F2;
+  border-color: #003865;
+}
+
+/* WhatsApp Share Button */
+#whatsapp-share-cta-btn {
+  background-color: #003865;
+  color: #FFFFFF !important;
+}
+#whatsapp-share-cta-btn:hover {
+  background-color: #002b4d;
+}
+
+/* ==========================================================================
+   INPUTS & FORM CONTROLS
+   ========================================================================== */
+input,
+select,
+textarea {
+  background-color: #FFFFFF;
+  color: #2C3138;
+  border-color: #E2DCB9;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #828892;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+  border-color: #003865;
+  box-shadow: 0 0 0 3px rgba(0, 56, 101, 0.15);
+  outline: none;
+}
+
+/* ==========================================================================
+   TABLES (Planetary Table)
+   ========================================================================== */
+thead {
+  background-color: #FAF8F2;
+  color: #003865;
+  border-bottom-color: #E2DCB9;
+}
+
+tbody tr {
+  border-bottom-color: #FAF8F2;
+}
+
+tbody tr:hover {
+  background-color: #FAF8F2;
+}
+
+td {
+  border-color: #FAF8F2;
+}
+
+/* ==========================================================================
+   DASHA TIMELINE & CALLOUTS
+   ========================================================================== */
+#dasha-schedule-section .bg-gradient-to-r {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FAF8F2 60%, #EFE6C8 100%);
+  border-color: #E2DCB9;
+}
+
+#whatsapp-share-callout {
+  background: linear-gradient(135deg, #FFFFFF 0%, #FAF8F2 60%, #EFE6C8 100%);
+  border-color: #E2DCB9;
+}
+
+#whatsapp-share-callout h3 {
+  color: #003865;
+}
+
+#whatsapp-share-callout p {
+  color: #828892;
+}
+
+/* Active Dasha and Tab Indicators */
+button[id^="tab-btn-"]:not(.border-amber-400):not(.border-\[\#FBAF3C\]):not(.border-\[\#003865\]):not(.border-\[\#16243B\]):not(.bg-\[\#003865\]):not(.bg-\[\#16243B\]) {
+  color: #828892;
+}
+
+button[id^="tab-btn-"]:hover {
+  color: #003865;
+}
+
+button[id^="tab-btn-"].border-amber-400,
+button[id^="tab-btn-"].border-\[\#FBAF3C\],
+button[id^="tab-btn-"].border-\[\#003865\],
+button[id^="tab-btn-"].border-\[\#16243B\] {
+  border-color: #FBAF3C;
+  color: #003865;
+}
+
+/* ==========================================================================
+   MODALS & OVERLAYS
+   ========================================================================== */
+div[role="dialog"] {
+  background-color: #FFFFFF;
+  color: #2C3138;
+  border-color: #E2DCB9;
+  box-shadow: 0 20px 45px -10px rgba(0, 56, 101, 0.18);
+}
+
+/* ==========================================================================
+   FOOTER: CubicYardHub Harbor Navy (#003865) & Sand (#EFE6C8)
+   ========================================================================== */
+#app-footer {
+  background-color: #003865 !important;
+  border-top: 1px solid #002b4d !important;
+  color: #EFE6C8;
+}
+
+#app-footer h4 {
+  color: #FFFFFF !important;
+}
+
+#app-footer a {
+  color: #EFE6C8;
+}
+
+#app-footer a:hover {
+  color: #FBAF3C;
+}
+
+#app-footer p {
+  color: #EFE6C8;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #E2DCB9;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #828892;
+}
