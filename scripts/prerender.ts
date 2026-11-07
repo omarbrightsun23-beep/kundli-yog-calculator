@@ -1,6 +1,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { YOGA_ENCYCLOPEDIA } from '../src/data/yogaEncyclopedia';
+import { FORMATION_IMAGE_ALT, formationImageSrc } from '../src/data/formationImages';
 
 const DIST_DIR = path.resolve(process.cwd(), 'dist');
 const PUBLIC_DIR = path.resolve(process.cwd(), 'public');
@@ -124,6 +125,7 @@ for (const yoga of YOGA_ENCYCLOPEDIA) {
         
         <h3>Formation Rule</h3>
         <p>${escapeHtml(yoga.formationRule)}</p>
+        ${FORMATION_IMAGE_ALT[yoga.slug] ? `<img src="${formationImageSrc(yoga.slug)}" alt="${escapeHtml(FORMATION_IMAGE_ALT[yoga.slug])}" width="1200" height="1200" loading="lazy" decoding="async">` : ''}
         
         <h3>Philosophical Meaning &amp; Shloka Summary</h3>
         <p>${escapeHtml(yoga.shlokaSummary)}</p>
