@@ -392,6 +392,19 @@ export default function App() {
                   Classical Vedic Astrology (Jyotish) reveals your destiny blueprint through planetary alignments. Calculate which powerful <strong className="text-[#003865] font-semibold">Kundli Yog</strong> combinations — including Raj Yog, Dhan Yog, and Panch Mahapurusha — are formed in your horoscope using Chitrapaksha Lahiri sidereal ephemeris.
                 </p>
 
+                {/* Hero example birth chart — below the H1 + intro, immediately above the calculator tool */}
+                <figure className="mb-8">
+                  <img
+                    src="/images/kundli-yog-calculator-birth-chart-example.webp"
+                    alt="Example Vedic birth chart (kundli) in North Indian diamond style from the Kundli Yog Calculator, with Gajakesari Yoga highlighted — Moon in Cancer in the ascendant and Jupiter in the 10th house"
+                    width={1200}
+                    height={1200}
+                    fetchPriority="high"
+                    decoding="async"
+                    className="w-full max-w-xl mx-auto rounded-2xl border border-[#E2DCB9] shadow-sm"
+                  />
+                </figure>
+
                 {/* BIRTH FORM */}
                 <BirthForm
                   initialValues={inputState}

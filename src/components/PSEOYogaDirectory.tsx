@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Search, BookOpen, Compass, ArrowRight, ShieldAlert, CheckCircle2, Star, User } from 'lucide-react';
 import { YOGA_ENCYCLOPEDIA, YogaArticle } from '../data/yogaEncyclopedia';
+import { FORMATION_IMAGE_ALT, formationImageSrc } from '../data/formationImages';
 
 interface PSEOYogaDirectoryProps {
   onSelectYogaForTesting: (yogaName: string) => void;
@@ -62,6 +63,19 @@ export const PSEOYogaDirectory: React.FC<PSEOYogaDirectoryProps> = ({
           Comprehensive Parashari scriptural reference. Explore how royal Raj Yog, Mahapurusha alignments, and generational Dhan Yog combinations are formed, cancelled, and activated.
         </p>
       </div>
+
+      {/* Zodiac sign wheel — start of the encyclopedia section, before the yoga guides list */}
+      <figure className="mb-10 text-center">
+        <img
+          src="/images/zodiac-signs-wheel-vedic-astrology.webp"
+          alt="Zodiac sign wheel (Rashi Chakra) of Vedic astrology showing the 12 signs from Aries to Pisces with their sign numbers 1 to 12"
+          width={1200}
+          height={1200}
+          loading="lazy"
+          decoding="async"
+          className="w-full max-w-md mx-auto rounded-2xl border border-[#E2DCB9] shadow-xs"
+        />
+      </figure>
 
       {/* Search and Category Filter Bar */}
       <div className="flex flex-col sm:flex-row items-center justify-between gap-4 mb-8">
@@ -196,6 +210,24 @@ export const PSEOYogaDirectory: React.FC<PSEOYogaDirectoryProps> = ({
                 </h4>
                 <p className="font-normal leading-relaxed">{activeArticle.formationRule}</p>
               </div>
+
+              {/* Formation chart image — end of the Formation Rule section */}
+              {FORMATION_IMAGE_ALT[activeArticle.slug] && (
+                <figure className="text-center">
+                  <img
+                    src={formationImageSrc(activeArticle.slug)}
+                    alt={FORMATION_IMAGE_ALT[activeArticle.slug]}
+                    width={1200}
+                    height={1200}
+                    loading="lazy"
+                    decoding="async"
+                    className="w-full max-w-md mx-auto rounded-xl border border-[#E2DCB9]"
+                  />
+                  <figcaption className="text-[11px] text-[#828892] mt-1.5">
+                    {FORMATION_IMAGE_ALT[activeArticle.slug]}
+                  </figcaption>
+                </figure>
+              )}
 
               <div>
                 <h4 className="font-bold text-[#003865] uppercase text-xs tracking-wider mb-2 flex items-center space-x-1.5">
